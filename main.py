@@ -17,7 +17,7 @@ TG_CORPUS_DIR = "corpus/telegram"
 VK_CORPUS_DIR = "corpus/vk"
 CANDIDATES_COUNT = 100
 CONTEXT_SIZE = 10
-LLM_MODEL = "openai/gpt-5"
+LLM_MODEL = "openai/gpt-5.1-chat"
 # LLM_MODEL = "openai/gpt-4.1-mini"
 
 bot = TeleBot(os.environ["TELEGRAM_BOT_TOKEN"])

@@ -222,7 +222,7 @@ def safe_handler(func):
 @bot.message_handler(func=lambda m: m.text and is_triggered(m.text))
 @safe_handler
 def handle_parsalio(message):
-    bot.send_chat_action(message.chat.id, "typing")
+    bot.send_chat_action(message.chat.id, "typing", timeout=20)
     user_text = get_user_text(message)
     context = chat_history.get(message.chat.id, [])
 

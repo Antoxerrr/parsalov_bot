@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "parsalov-bot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+markovify = "^0.9.4"
+pytelegrambotapi = "^4.30.0"
+python-dotenv = "^1.2.1"
+openai = "^2.20.0"
+beautifulsoup4 = "^4.14.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
